@@ -1,0 +1,63 @@
+Players
+	- Player Id (PRI)
+	- Player Name
+	- Age
+	- Team Id (FOR)
+	- IPL Debut
+	- Specialization
+	- Matches played (Dynamic)
+	- Playing Style
+	- Nationality
+
+
+Teams
+	- Team ID (pri)
+	- Team Name
+	- Owner
+	- Coach
+	- Venue (FOR)
+	- Captain (FOR)
+	- Points (Dynamic)
+	- Wins (Dynamic)
+	- Lost (Dynamic)
+
+
+Matches
+	- Match Id (PRI)
+	- Status (Upcoming/Past) 
+	- Team1 ID (FOR)
+	- Team1 Runs Made (Dynamic)
+	- Team1 Overs Played (Dynamic)
+	- Team2 ID (FOR)
+	- Team2 Runs Made (Dynamic)
+	- Team2 Overs Played (Dynamic)
+	- Venue (FOR)
+	- Date
+	- Time
+	- Winner (FOR)(TeamID 1/ TeamID 2) (Dynamic)
+	- Man of the Match (FOR)
+
+
+Venues
+	- Venue ID (PRI)
+	- Stadium Name 
+	- Capacity
+	- Address
+	- City
+	- Home TeamID (FOR)
+
+
+Points
+	- Position (PRI) (1-8) (Dynamic)
+	- Team ID (FOR)
+	- Total Matches (Dynamic)
+	- WIns (Dynamic)
+	- Loss (Dynamic)
+	- No Result (Dynamic)
+	- Net Run Rate (Dynamic)
+	- FOR (Dynamic)
+	- Against (Dynamic)
+	- Points (Dynamic)
+	
+#In the context of the Indian Premier League (IPL) points table, "for" and "against" refer to the net run rate of a team. The "for" score represents the number of runs a team has scored in a match, while the "against" score represents the number of runs the opposing team has scored. The net run rate is calculated by subtracting the "against" score from the "for" score and then dividing by the number of overs faced. This net run rate is used as a tiebreaker when teams have the same number of points in the IPL standings.
+	
